@@ -2,6 +2,8 @@
 
 run App
 
-get '/sushi' do
-  "Hello Sushi"
+class App < Sinatra::Base
+  get '/' do
+    "Hello, World!"
+    end
 end
